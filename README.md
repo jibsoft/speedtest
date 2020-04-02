@@ -1,4 +1,5 @@
 # speedtest
+
 It's speedtest from
 
 ```
@@ -14,4 +15,5 @@ Collect statistics to elasticsearch with
 Reference : https://pypi.org/project/speedtest-cli/
 
 # Usage
-`docker run -d jibsoft/speedtest -e INTERVAL=30 -e HOST=http://<host>`
+
+`docker run -e INTERVAL=30 -e HOST=http://<elasticsearch-host> -d jibsoft/speedtest`
